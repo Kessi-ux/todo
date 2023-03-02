@@ -1,0 +1,94 @@
+label{
+    display:block;
+    margin: 0.5rem, 0;
+}
+
+ input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+} 
+
+input, textarea{
+    background-color: #ffffff;
+    color: black;
+}
+
+.inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"]:hover {
+    color: plum;
+}
+
+input[type="submit"]:visited {
+    color: rgb(177, 102, 177);
+}
+
+input[type="submit"]:active {
+    color: #dfdfe2;
+}
+
+.container {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 440px;
+    box-shadow: 5px 10px 18px #888888;
+    height: auto;
+    min-height: 90vh;
+    border-radius: 50px;
+}
+
+
+form input {
+    width: 100%;
+    padding: 8px 15px;
+    margin: 8px 0;
+    border-radius: 0;
+    display: inline-block;
+    border: 2px solid #888888;
+    background-color: transparent;
+    outline: none;
+}
+
+
+
+form label {
+    display: inline-block;
+    font-size: 18px;
+   color: black;
+    min-width: fit-content;
+}
+
+form label small{
+   color: #8C3D39;
+}
+
+.todo-body {
+    padding: 20px;
+}
+
+.todo-output {
+    margin-top: 10px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    margin-top: 5px;
+    border: 1px solid #888888;
+
+}
+
+.todo-output-title {
+    display: flex;
+    align-items: center;
+}
+
+input[type=checkbox] {
+    margin: auto 10px auto 0;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list app</title>
+    <link rel="stylesheet" href="syles.css">
+</head>
+<body>
+   <div class="container">
+    <header>
+        <img src="./todo.jpg" alt="What do you plan on doing today image">
+    </header>
+    <form action="" id="todo-list">
+        <main>
+            <h2>To-do List</h2>
+            <fieldset class="todo-body">
+                <label for="comments">
+                    <textarea id="todos" rows="2" columns="20" placeholder="Add a New Task..." name="todos"></textarea>
+                </label>
+
+                <label for="name">
+                    <input type="datetime-local" name="date-time" id="date-time" placeholder="Input your date and time" required=""> 
+                </label>
+
+                <div class="btn"><button>SUBMIT</button></div>
+            </fieldset>
+        </main>
+    </form>
+    <section class="todo-output-container">
+        <div class="todo-output">
+            <legend id="todo-output title"> Your TODOs?</legend>
+        </div>    
+
+            <fieldset class="todo-output1">
+            <label> 
+                
+            <input type="checkbox" id="task1" value= "task1" >Task 1<small>2023-03-01 06:51 PM</small><div>
+                <input type="button" value="Delete">
+            </div></label>
+
+            </fieldset>
+
+            <fieldset class="todo-output1">
+
+            <label><input type="checkbox" id="task2" value="task2">Task 2 <small>2023-03-01 06:51 PM</small> <div>
+                <input type="button" value="Delete">
+            </div></label>
+        </fieldset>
+
+        <div class="task-container">
+            <div class="checkbox">
+                <input type="checkbox">
+                <label for="checkbox">Task-3
+                    <br>
+                    <p>01/03/2023</p>
+                </label>
+            </div>
+            <label>
+                <input type="checkbox" id="task3" value="task3" >Task 3 
+                <p>2023-03-01 06:51 PM</p>
+                <div>
+                <input type="button" value="Delete">
+            </div>
+            </label>
+
+        </div>
+    </section>
+
+        </div>
+    </div>
+
+
+    </div>
+</body>
+</html>
